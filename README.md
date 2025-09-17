@@ -1,17 +1,34 @@
+**Weather App **
+A simple weather application built with React that allows users to check the current weather for any city. This app fetches data from the OpenWeatherMap API and displays temperature, humidity, wind speed, and weather conditions with icons.
 
-Weather Now App 
+**Demo**
+Live preview on CodeSandbox: https://codesandbox.io/p/github/NakkalaRamya/weather-app/main?import=true
 
-A simple React-based weather app that allows users to quickly check the current weather for any city. This project was built for a Take-Home Challenge to demonstrate understanding of user requirements, API integration, and React development.
+**Features**
 
-## Live Demo
-Check it out here: https://codesandbox.io/p/github/NakkalaRamya/weather-app/main?import=true&embed=1
+Search for any city to get current weather data
 
-## Features
-- Search for any city to see current weather conditions
-- Displays:
-  - Temperature
-  - Humidity
-  - Wind speed
-  - Weather icon
-- Clean and simple UI for quick usage
-- Default city displayed on page load (`London`)
+Displays:
+
+-Temperature (°C)
+
+-Humidity (%)
+
+-Wind speed (km/hr)
+
+-Weather icon (clear, cloud, rain, snow, drizzle)
+
+-Default city on load: London
+
+-Responsive and clean UI
+
+**Technologies Used**
+React – Frontend framework
+
+CSS – Styling
+
+OpenWeatherMap API – Fetching weather data
+
+State management – React useState and useEffect
+
+Icons – Custom weather icons stored in assets
