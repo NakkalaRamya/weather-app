@@ -1,0 +1,21 @@
+# Weather Now App 
+
+A simple React-based weather app that allows users to quickly check the current weather for any city. This project was built for a Take-Home Challenge to demonstrate understanding of user requirements, API integration, and React development.
+
+
+## Features
+- Search for any city to see current weather conditions
+- Displays:
+  - Temperature
+  - Humidity
+  - Wind speed
+  - Weather icon
+- Clean and simple UI for quick usage
+- Default city displayed on page load (`London`)
+
+## Tech Stack
+- **Frontend:** React, Vite
+- **Styling:** Plain CSS
+- **API:** [Open-Meteo API](https://open-meteo.com/)
+- **State Management:** React `useState` and `useRef`
+
